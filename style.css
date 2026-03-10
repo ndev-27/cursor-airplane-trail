@@ -1,0 +1,26 @@
+body{
+height:200vh;
+background:linear-gradient(#0b1d3a,#050c1a);
+cursor:none;
+overflow:hidden;
+font-family:sans-serif;
+}
+
+.title{
+color:white;
+text-align:center;
+margin-top:40vh;
+font-size:40px;
+letter-spacing:4px;
+}
+
+.trail{
+position:fixed;
+width:120px;
+height:80px;
+object-fit:cover;
+pointer-events:none;
+border-radius:10px;
+box-shadow:0 20px 50px rgba(0,0,0,0.6);
+filter:blur(0px);
+}
